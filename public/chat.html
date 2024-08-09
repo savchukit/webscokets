@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1 id="chat-id"></h1>
+
+    <p>Users in this chat:</p>
+    <ul id="users-list"></ul>
+
+    <form id="message-form">
+      <input name="message" type="text" placeholder="Message" />
+      <button>Send</button>
+    </form>
+    <br />
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.13.0/qs.min.js"></script>
+    <script src="./js/chat.js"></script>
+  </body>
+</html>
